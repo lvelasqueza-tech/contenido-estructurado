@@ -1,0 +1,121 @@
+:root {
+  --color-background: #F0DFE4;
+  --color-text: #663600;
+  --color-accent: #fff;
+
+  --font-family-base: "CommitMono", Arial, Helvetica, sans-serif;
+  --font-family-title: "Kode Mono", sans-serif;
+  --font-size-body: 1.5rem;
+  --font-size-h1: 5.6rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 3rem;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+  line-height: 4rem;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-body);
+}
+h1,h2,h3{
+  font-weight: 100;
+  text-align: center;
+}
+h1 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-h1);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+h2 {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-h2);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+h3 {
+  font-family: var(--font-size-body);
+  font-size: var(--font-size-h3);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+a {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  font-family: var(--font-family-title);
+  text-decoration: none;
+  padding: .2em .5em;
+  border-radius: .5em;
+  font-size: 2rem;
+  margin: 1em 0em;
+}
+main {
+  width: 65%;
+  min-width: 290px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+header, main, footer {
+  padding: 1em;
+}
+.body_index{
+
+}
+.body_memoria{
+  
+}
+.body_redes{
+  
+}
+.body_testigos{
+  
+}
+
+section {
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+}
+nav {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+nav a {
+  margin-right: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  line-height: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.hero {
+  text-align: center;
+  background-color: var(--color-background);
+  padding: .5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.hero p{
+  text-align: center;
+  background-color: var(--color-background);
+  margin: 0 auto;
+}
+
+* img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-image: 
+}
+
+ul {
+  text-align: left;
+}
