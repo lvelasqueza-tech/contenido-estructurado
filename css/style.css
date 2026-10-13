@@ -10,7 +10,6 @@
   --font-size-h2: 2rem;
   --font-size-h3: 3rem;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -64,6 +63,19 @@ main {
 header, main, footer {
   padding: 1em;
 }
+.body_index{
+
+}
+.body_memoria{
+  
+}
+.body_redes{
+  
+}
+.body_testigos{
+  
+}
+
 section {
   margin-bottom: 10rem;
   margin-top: 2rem;
@@ -97,8 +109,13 @@ p {
   margin: 0 auto;
 }
 
-img {
+* img {
   max-width: 100%;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  background-image: 
+}
+
+ul {
+  text-align: left;
 }
